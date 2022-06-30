@@ -3,4 +3,5 @@
 # Membres:
 <ul>
 <li>LOUMON Koffi Samuel </li>
+<li>Kpoka Gérard</li>
 </ul>
