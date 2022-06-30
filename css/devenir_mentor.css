@@ -2,3 +2,16 @@
     margin-bottom: 3em !important;
     border-radius: 1em !important;
 }
+.h1-dev-mentor{
+font-size: 7em !important;
+}
+
+@media all and (max-width: 1300px) {
+    .w-img-carousel{
+        height: 35em !important;
+    }
+
+    .h1-dev-mentor{
+        font-size: 2em !important;
+        }
+}
