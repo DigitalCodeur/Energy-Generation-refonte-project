@@ -11,13 +11,40 @@ font-size: 7em !important;
     background-size: cover;
 }
 
+.background-red{
+    background-color: #F40000;
+}
 .invisible{
     opacity: 0;
-    height: 30vh;
+    height: 50vh;
+}
+
+.postion-personel{
+    margin-top: 50%;
+}
+.personal-margin{
+    margin: 0 auto;
+}
+
+.border-raduis-personal{
+    border-radius: 1.5em;
+}
+
+.margin-y-personal{
+    margin-top: 10em !important;
+    margin-bottom: 8em !important;
 }
 
 .text-align-justify{
     text-align: justify;
+}
+
+.w-personal{
+    width: 50%;
+}
+
+.w-personal1{
+    width: 40%;
 }
 
 @media all and (max-width: 1300px) {
