@@ -6,6 +6,15 @@
 font-size: 7em !important;
 }
 
+.bg-1{
+    background-image: url('../image/bg-dev-mentor1.jpg');
+    background-size: cover;
+}
+.invisible{
+    opacity: 0;
+    height: 30vh;
+}
+
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
@@ -13,5 +22,11 @@ font-size: 7em !important;
 
     .h1-dev-mentor{
         font-size: 2em !important;
+        }
+}
+
+@media all and (max-width: 1850px) and (min-width: 1300px) {
+    .h1-dev-mentor{
+        font-size: 4em !important;
         }
 }
