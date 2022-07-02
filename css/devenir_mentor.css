@@ -9,6 +9,18 @@ font-size: 7em !important;
 .bg-1{
     background-image: url('../image/bg-dev-mentor1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-afrique-eg{
+    background-image: url('../image/afrique-eg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.opacity-personal{
+    opacity: 0.90 !important;
 }
 
 .background-red{
@@ -19,9 +31,6 @@ font-size: 7em !important;
     height: 50vh;
 }
 
-.postion-personel{
-    margin-top: 50%;
-}
 .personal-margin{
     margin: 0 auto;
 }
@@ -31,7 +40,7 @@ font-size: 7em !important;
 }
 
 .margin-y-personal{
-    margin-top: 10em !important;
+    margin-top: 5em !important;
     margin-bottom: 8em !important;
 }
 
@@ -40,7 +49,7 @@ font-size: 7em !important;
 }
 
 .w-personal{
-    width: 50%;
+    width: 70%;
 }
 
 .w-personal1{
