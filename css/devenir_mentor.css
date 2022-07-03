@@ -19,8 +19,17 @@ font-size: 7em !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .opacity-personal{
-    opacity: 0.90 !important;
+    opacity: 0.85 !important;
+}
+
+.image-partenaire{
+    height: 15em;
+}
+
+.bg-footer{
+    background-color: #CACACA;
 }
 
 .background-red{
