@@ -82,9 +82,3 @@ font-size: 7em !important;
         font-size: 2em !important;
         }
 }
-
-@media all and (max-width: 1850px) and (min-width: 1300px) {
-    .h1-dev-mentor{
-        font-size: 4em !important;
-        }
-}
