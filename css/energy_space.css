@@ -1,28 +1,40 @@
-.mb-titre{
-    margin-bottom: 3em !important;
-    border-radius: 1em !important;
- }
- .h1-dev-mentor{
- font-size: 7em !important;
- }
- 
- @media all and (max-width: 1300px) {
-    .w-img-carousel{
-        height: 35em !important;
-    }
- 
-    .h1-dev-mentor{
-        font-size: 2em !important;
-        }
- }
- .bg-container {
-    background: url('../images/femme-ordi-2.webp');
-   
- }
- 
- .bg-cover {
-    background-position: center ;
-    background-size: cover;
- }
- 
- 
+.mb-titre {
+   margin-bottom: 3em !important;
+   border-radius: 1em !important;
+}
+
+.h1-dev-mentor {
+   font-size: 7em !important;
+}
+
+@media all and (max-width: 1300px) {
+   .w-img-carousel {
+      height: 35em !important;
+   }
+
+   .h1-dev-mentor {
+      font-size: 2em !important;
+   }
+}
+
+.portfolio {
+   background-color: brown;
+   padding: 50px;
+}
+
+
+
+.bg {
+   /* The image used */
+   background-image: url("../images/femme-ordi-2.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.bg img {
+   position: relative;
+   left: 270px;
+   top: 250px;
+}
