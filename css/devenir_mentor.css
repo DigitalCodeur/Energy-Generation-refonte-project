@@ -6,6 +6,8 @@
 font-size: 7em !important;
 }
 
+<<<<<<< HEAD
+=======
 .bg-1{
     background-image: url('../image/bg-dev-mentor1.webp');
     background-size: cover;
@@ -73,6 +75,7 @@ font-size: 7em !important;
     height: 60em !important;
 }
 
+>>>>>>> 0a8d396ecf0be6229090e62d4fa769116d6fc140
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
