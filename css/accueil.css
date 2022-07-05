@@ -73,6 +73,14 @@ height: 10vh;
     height: 85vh;
 }
 
+.bg-programme-attachement{
+    background-image: url(/image/Accueil_images/mecano-1.webp);
+    background-size: cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
 .description-programme_pg_accueil{
     font-family: 'Roboto', sans-serif !important;
     font-weight: 0 !important;
@@ -160,6 +168,7 @@ height: 15vh;
     height: 69.1vh;
     background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .button_energy_pg_accueil{
