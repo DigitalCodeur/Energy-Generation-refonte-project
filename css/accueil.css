@@ -74,10 +74,10 @@ height: 10vh;
 }
 
 .bg-programme-attachement{
-    background-image: url(/image/Accueil_images/mecano-1.webp);
+    background-image: url(../image/Accueil_images/mecano-1.webp);
     background-size: cover ;
     background-attachment: fixed;
-    height: 100vh;
+    height: 20rem;
     
 }
 
@@ -131,11 +131,12 @@ ICI LES BOUTTONS DES PROGRAMMES
 
 }
 .text-formation-solaire{
-    font-size: 3vh;
+    font-size: 15px;
 }
 
 .button_pg_accueil{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 /* ==========================
                   Energy-space
