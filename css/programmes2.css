@@ -74,17 +74,24 @@ font-size: 7em !important;
         font-size: 2em !important;
         }
 }
-<<<<<<< HEAD:css/programmes2.css
+
 .bgr1{
     background-image: url("../image/bg_2.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
 }
 .bgr2{
     background-image: url("../image/bg_3.webp") !important;
-=======
-
-@media all and (max-width: 1850px) and (min-width: 1300px) {
-    .h1-dev-mentor{
-        font-size: 4em !important;
-        }
->>>>>>> 0e66f00db748077a16732e6285bf2728418cd473:css/devenir_mentor.css
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
 }
+.bg-entrepreneur-step{
+    background-color: #0d6efd !important;
+  
+}
+.bg-discours{
+    background-color: #EA4E1D !important; 
+}
+
