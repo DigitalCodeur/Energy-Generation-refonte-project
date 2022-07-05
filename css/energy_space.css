@@ -22,7 +22,11 @@
    padding: 50px;
 }
 
-
+.start {
+   color: white;
+   position: relative;
+   left: 100px;
+}
 
 .bg {
    /* The image used */
