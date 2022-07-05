@@ -1,0 +1,6 @@
+<div class="home-page-img">
+    <div class="bg-container mx-auto bg-cover min-vh-100 d-flex align-items-center" style="background-image:url ;">
+        <img class="space" src="../images/femme-ordi-2.webp" alt="space" />
+    </div>
+</div>
+
