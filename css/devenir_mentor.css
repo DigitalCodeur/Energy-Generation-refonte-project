@@ -6,15 +6,17 @@
 font-size: 7em !important;
 }
 
+<<<<<<< HEAD
+=======
 .bg-1{
-    background-image: url('../image/bg-dev-mentor1.jpg');
+    background-image: url('../image/bg-dev-mentor1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .bg-afrique-eg{
-    background-image: url('../image/afrique-eg.png');
+    background-image: url('../image/afrique-eg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +26,7 @@ font-size: 7em !important;
     opacity: 0.85 !important;
 }
 
-.image-partenaire{
+.image-parle-de-nous{
     height: 15em;
 }
 
@@ -65,6 +67,15 @@ font-size: 7em !important;
     width: 40%;
 }
 
+.img-sociaux{
+    width: 70px !important;
+    height: 70px !important;
+}
+.w-img-carousel{
+    height: 60em !important;
+}
+
+>>>>>>> 0a8d396ecf0be6229090e62d4fa769116d6fc140
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
@@ -73,18 +84,4 @@ font-size: 7em !important;
     .h1-dev-mentor{
         font-size: 2em !important;
         }
-}
-<<<<<<< HEAD:css/programmes2.css
-.bgr1{
-    background-image: url("../image/bg_2.webp") !important;
-}
-.bgr2{
-    background-image: url("../image/bg_3.webp") !important;
-=======
-
-@media all and (max-width: 1850px) and (min-width: 1300px) {
-    .h1-dev-mentor{
-        font-size: 4em !important;
-        }
->>>>>>> 0e66f00db748077a16732e6285bf2728418cd473:css/devenir_mentor.css
 }
