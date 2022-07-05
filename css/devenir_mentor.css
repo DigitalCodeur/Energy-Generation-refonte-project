@@ -73,6 +73,18 @@ font-size: 5em !important;
     height: 60em !important;
 }
 
+@media all and (max-width:900px){
+    .flex-wrap-mobile{
+        flex-wrap: wrap;
+    }
+    .w-img-blog{
+        width: 110% !important;
+    }
+}
+
+a:hover{
+    color: rgb(10, 163, 239) !important;
+}
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
