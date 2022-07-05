@@ -3,4 +3,6 @@
 # Membres:
 <ul>
 <li>LOUMON Koffi Samuel </li>
+<li>Mèwè SIZIN </li>
+<li>Tossou nongbede </li>
 </ul>
