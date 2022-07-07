@@ -19,26 +19,53 @@
 
 .portfolio {
    background-color: brown;
-   padding: 50px;
+   padding: 50px 0px 130px 0px;
+}
+
+
+.bg-container {
+   /* The image used */
+   background-image: url("../images/femme-ordi-2.webp");
+
+}
+
+.bg-cover {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.logo {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.logo .gauche {
+   position: relative;
+   left: 600px;
+   top: 100px;
+   /* padding: -50px; */
+
+   /* margin: auto; */
+}
+
+.logo .space h1 {
+   color: rgba(252, 10, 10, 0.911);
+   font-size: 3.6em;
+   /* position: relative;
+   top: 150px;
+   left: 269px; */
+}
+
+
+.bleu {
+   background: blue;
 }
 
 .start {
    color: white;
-   position: relative;
-   left: 100px;
-}
-
-.bg {
-   /* The image used */
-   background-image: url("../images/femme-ordi-2.webp");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
-}
-
-.bg img {
-   position: relative;
-   left: 270px;
-   top: 250px;
+   font-size: 5em;
+   margin-bottom: 50px;
 }

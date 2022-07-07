@@ -4,3 +4,15 @@
     </div>
 </div>
 
+
+
+.bg {
+   /* The image used */
+   background-image: url("../images/femme-ordi-2.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100%;
+}
+
+
+background-image: url("../images/femme-ordi-2.webp");
