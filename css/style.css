@@ -1,3 +1,36 @@
+/*
+=======================
+CSS de la page accueil
+=======================
+*/
+
+
+/*
+=============================
+CSS de la page nos programmes
+=============================
+*/
+
+
+/*
+===========================
+CSS de la page energy space
+===========================
+*/
+
+
+/*
+====================
+CSS de la page blog
+====================
+*/
+
+
+/*
+=============================
+CSS de la page devenir mentor
+=============================
+*/
 .mb-titre{
     margin-bottom: 3em !important;
     border-radius: 1em !important;
@@ -83,9 +116,7 @@ font-size: 5em !important;
     }
 }
 
-a:hover{
-    color: rgb(10, 163, 239) !important;
-}
+
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
@@ -96,6 +127,61 @@ a:hover{
         }
 }
 
+
+/*
+=======================
+CSS typography
+=======================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+h1, h2, h3, h4, a, .h1-dev-mentor{
+    font-family: 'K2D', sans-serif;
+}
+a{
+    font-family: 'Jura', sans-serif;
+}
+
+*{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.font-form *{
+    font-family: 'K2D', sans-serif;
+}
+
+
+
+/*
+=============================
+CSS commun à toutes les pages
+=============================
+*/
+
+.image-parle-de-nous{
+    height: 15em;
+}
+
+.img-sociaux{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+
+/*
+=======================
+CSS animation
+=======================
+*/
+
+a:hover{
+    color: rgb(10, 163, 239) !important;
+}
+
 .personal-blue{
-    background-color: #159eed !important;
+    color: #00aae3!important;
 }
