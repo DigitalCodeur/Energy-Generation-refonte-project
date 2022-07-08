@@ -1,6 +1,6 @@
 .mb-titre{
-    margin-bottom: 3em !important;
-    border-radius: 1em !important;
+    margin-bottom: 1em !important;
+    border-radius: 0.9em !important;
 }
 .h1-dev-mentor{
 font-size: 5em !important;
@@ -71,7 +71,7 @@ font-size: 5em !important;
 }
 
 .w-img-carousel{
-    height: 60em !important;
+    height: 40em !important;
 }
 
 @media all and (max-width:900px){
