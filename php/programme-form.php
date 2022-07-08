@@ -16,8 +16,8 @@ if(isset($_POST["prenom"]) && isset($_POST["nom"]) && isset($_POST["genre"]) && 
           $campusPrefere = $_POST["campus_prefere"];
           // echo $prenom, $nom, $genre, $email, $confirmeEmail, $numeroWhatsap,  $pays, $niveauEducation, $thematiqueChoisi, $campusPrefere;
 
-          if($email==$confirmeEmail) {
-            $servername = "localhost";
+if($email==$confirmeEmail) {
+          $servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "espaceProgrammes";
