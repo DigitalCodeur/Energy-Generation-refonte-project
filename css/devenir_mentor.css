@@ -3,11 +3,9 @@
     border-radius: 1em !important;
 }
 .h1-dev-mentor{
-font-size: 7em !important;
+font-size: 5em !important;
 }
 
-<<<<<<< HEAD
-=======
 .bg-1{
     background-image: url('../image/bg-dev-mentor1.webp');
     background-size: cover;
@@ -75,7 +73,18 @@ font-size: 7em !important;
     height: 60em !important;
 }
 
->>>>>>> 0a8d396ecf0be6229090e62d4fa769116d6fc140
+@media all and (max-width:900px){
+    .flex-wrap-mobile{
+        flex-wrap: wrap;
+    }
+    .w-img-blog{
+        width: 110% !important;
+    }
+}
+
+a:hover{
+    color: rgb(10, 163, 239) !important;
+}
 @media all and (max-width: 1300px) {
     .w-img-carousel{
         height: 35em !important;
