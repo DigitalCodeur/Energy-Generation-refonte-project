@@ -11,8 +11,8 @@ try {
 } catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
-      if(isset($_POST["prenom"]) && isset($_POST["nom"]) && isset($_POST["genre"]) && isset($_POST["email"]) && isset($_POST["confirme_email"]) 
-        && isset($_POST["numero_whatsap"]) && isset($_POST["pays"]) && isset($_POST["niveau_etude"]) && isset($_POST["thematique_choisi"]) && isset($_POST["campus_prefere"]))
+      if(empty($_POST["prenom"]) && empty($_POST["nom"]) && empty($_POST["genre"]) && empty($_POST["email"]) && empty($_POST["confirme_email"]) 
+        && empty($_POST["numero_whatsap"]) && empty($_POST["pays"]) && empty($_POST["niveau_etude"]) && empty($_POST["thematique_choisi"]) && empty($_POST["campus_prefere"]))
       {
           $prenom = $_POST["prenom"];
           $nom = $_POST["nom"];
