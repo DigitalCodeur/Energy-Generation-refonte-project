@@ -12,6 +12,6 @@
 # Methode pour la realisation du backend des formulaires
 <ol>
 <li> Connexion au serveur </li>
-<li>Recuperation des informations des formulaires</li>
+<li>Recuperation des informations des formulaires avec PHP</li>
 <li></li>
 </ol>
