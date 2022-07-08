@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-a,
-h1,
-h2,
-h3,
-h4,
-* {
+a, h1, h2, h3, h4,*{
     font-family: 'Jura', sans-serif;
 }
 
-p {
+p{
     font-family: 'K2D', sans-serif;
 }
+
+.h1-dev-mentor{
+    font-family: 'Roboto', sans-serif;
+}
+
