@@ -7,7 +7,7 @@ CSS de la page accueil
    /* font-family: 'Roboto', sans-serif ;*/
 }
 .background_pg_accueil{
-    background-image: url(/image/Accueil_images/africa-EG.webp);
+    background-image: url(../image/Accueil_images/africa-EG.webp);
     height: 100vh;
    background-size: contain;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ ICI LES BOUTTONS DES PROGRAMMES
 ========================== */
 
 .bg-formation-solaire_pg_accueil{
-    background-image: url(/image/Accueil_images/africa-EG.webp);
+    background-image: url(../image/Accueil_images/africa-EG.webp);
     height: 100vh ;
    background-size: contain;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ background-color: red;
 height: 15vh;
 }
 .bg-scientifique{
-    background-image: url(/image/Accueil_images/scientifique-1.webp);
+    background-image: url(../image/Accueil_images/scientifique-1.webp);
     height: 69.1vh;
     background-size: cover;
     background-repeat: no-repeat;
