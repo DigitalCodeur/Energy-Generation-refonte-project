@@ -1,9 +1,9 @@
 .mb-titre{
-    margin-bottom: 3em !important;
-    border-radius: 1em !important;
+    margin-bottom: 1em !important;
+    border-radius: 0.9em !important;
 }
 .h1-dev-mentor{
-font-size: 5em !important;
+font-size: 4em !important;
 }
 
 .bg-1{
@@ -69,8 +69,9 @@ font-size: 5em !important;
     width: 70px !important;
     height: 70px !important;
 }
+
 .w-img-carousel{
-    height: 60em !important;
+    height: 40em !important;
 }
 
 @media all and (max-width:900px){
@@ -93,4 +94,8 @@ a:hover{
     .h1-dev-mentor{
         font-size: 2em !important;
         }
+}
+
+.personal-bg-blue{
+    background-color: #159eed !important;
 }
