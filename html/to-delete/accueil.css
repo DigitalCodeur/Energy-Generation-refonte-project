@@ -31,12 +31,7 @@ height: 10vh;
     color: red;
     font-weight: 900;
 }
-.p_pg_accueil{
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    
-    
-}
+
 .img1-m{
     margin-right: 20px;
 }
@@ -126,7 +121,7 @@ ICI LES BOUTTONS DES PROGRAMMES
     background-attachment: fixed;
 }
 
-.text-formation-solaire{
+.{
     font-size: 15px;
 }
 
