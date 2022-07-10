@@ -3,13 +3,10 @@
 CSS de la page accueil
 =======================
 */
-#corps{
-   /* font-family: 'Roboto', sans-serif ;*/
-}
+
 .background_pg_accueil{
     background-image: url(../image/Accueil_images/africa-EG.webp);
-    height: 100vh;
-   background-size: contain;
+   background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
@@ -19,37 +16,13 @@ CSS de la page accueil
 height: 10vh;
 }
 
-.text_pg_accueil {
-    text-align: justify;
-    /*font-family: 'Roboto', sans-serif;*/
-    /*font-weight: 700;*/
-    
-}
-
 .images_pg_accueil{
     height: 200px !important;
     width: 700px !important;
 
 }
 .h4_pg_accueil{
-   /* font-family: 'Roboto', sans-serif;*/
     color: red;
-    font-weight: 900;
-}
-.p_pg_accueil{
-   /* font-family: 'Roboto', sans-serif;*/
-    font-size: 13px;
-    
-    
-}
-.img1-m{
-    margin-right: 20px;
-}
-
-.button_pg_accueil{
-    width: 25vh !important;
-    border-radius: 0  !important;
-  /*  font-family: 'Roboto', sans-serif;*/
 }
 
 .border{
@@ -59,14 +32,6 @@ height: 10vh;
 
 .bg-titre-programme_pg_accueil{
     background-color: red;
-    color: white;
-    height: 80px;
-    width: 100%;
-    
-    
-}
-.h1_pg_accueil{
-   /* font-family: 'Jura', sans-serif;*/
 }
 
 .espace-blanc{
@@ -76,7 +41,6 @@ height: 10vh;
 
 .bg-programme_pg_accueil{
     background-color: #097188;
-    height: 85vh;
 }
 
 .bg-programme-attachement{
@@ -99,24 +63,14 @@ ICI LES BOUTTONS DES PROGRAMMES
 ========================== */
 .btn1_pg_accueil{
     background-color:#FF6B00;
-    color: white;
-  /*  font-family: 'Roboto', sans-serif !important;*/
-    font-size: 2vh;
-    
 }
 
 .btn2_pg_accueil{
     background-color: #2E1FD7;
-    color: white;
-   /* font-family: 'Roboto', sans-serif !important;*/
-    font-size: 2vh;
 }
 
 .btn3_pg_accueil{
     background-color: #FFBB0E;
-    color: white;
-   /* font-family: 'Roboto', sans-serif !important;*/
-    font-size: 2vh;
 }
 
 /* ==========================
@@ -125,36 +79,18 @@ ICI LES BOUTTONS DES PROGRAMMES
 
 .bg-formation-solaire_pg_accueil{
     background-image: url(../image/Accueil_images/africa-EG.webp);
-    height: 100vh ;
-   background-size: contain;
+   background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.text-formation-solaire{
-    font-size: 15px;
-}
-
-.button_pg_accueil{
-   /* font-family: 'Roboto', sans-serif;*/
-    font-size: 14px;
-}
 /* ==========================
                   Energy-space
 ========================== */
 .bg-titre-energy-space_pg_accueil{
     background-color: #0094FF;
-    color: white;
 }
 
-.h5_pg_accueil{
-   /* font-family: 'Jura', sans-serif;*/
-
-}
-.h2_pg_accueil{
-   /* font-family: 'Jura', sans-serif;*/
-
-}
 .button_energy_pg_accueil{
     border-radius: 0px !important;
 }
@@ -163,24 +99,13 @@ ICI LES BOUTTONS DES PROGRAMMES
 ========================== */
 .bg-ils-croient-en-nous{
 background-color: red;
-height: 15vh;
 }
 .bg-scientifique{
     background-image: url(../image/Accueil_images/scientifique-1.webp);
-    height: 69.1vh;
+    height: 65vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.button_energy_pg_accueil{
-   /* font-family: 'Roboto', sans-serif;*/
-}
-
-.h2_ils_croient_en_nous{
-   /* font-family: 'Jura', sans-serif;*/
-    color: white;
-
 }
 
 .espace-rouge{
@@ -400,6 +325,11 @@ font-size: 4em !important;
     .flex-wrap-mobile{
         flex-wrap: wrap;
     }
+
+    .w-50-mobile{
+        width: 50%;
+    }
+    
     .w-img-blog{
         width: 110% !important;
     }
@@ -442,6 +372,7 @@ CSS animation
 =======================
 */
 
-a:hover{
+a:hover, .active{
     color: rgb(10, 163, 239) !important;
 }
+

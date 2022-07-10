@@ -1,7 +1,7 @@
 <?php
 
 
-if(!empty($_POST["prenom"]) && !empty($_POST["nom"]) && !empty($_POST["genre"]) && !empty($_POST["email"]) && !empty($_POST["confirme_email"]) 
+if(!empty($_POST["prenom"]) && !empty($_POST["nom"]) && !empty($_POST["genre"]) && !empty($_POST["email"]) && !empty($_POST["confirme_email"])
         && !empty($_POST["numero_whatsap"]) && !empty($_POST["pays"]) && !empty($_POST["niveau_etude"]) && !empty($_POST["thematique_choisi"]) && !empty($_POST["campus_prefere"]))
       {
           $prenom = $_POST["prenom"];
@@ -20,17 +20,17 @@ if(!empty($_POST["prenom"]) && !empty($_POST["nom"]) && !empty($_POST["genre"]) 
                     $servername = "localhost";
           $username = "root";
           $password = "root";
-          $dbname = "espaceProgrammes";
+          $dbname = "db_remonte_eg";
 
           try {
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
             // set the PDO error mode to exception
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "INSERT INTO makeInscription (prenom, nom, genre, email, confirmeEmail, numeroWhatsap, pays, niveauEducation, thematiqueChoisi, campusPrefere)
+            $sql = "INSERT INTO  programme_form (prenom, nom, genre, email, confirmeEmail, numeroWhatsap, pays, niveauEducation, thematiqueChoisi, campusPrefere)
             VALUES ('$prenom', '$nom', '$genre', '$email', '$confirmeEmail', '$numeroWhatsap', '$pays', ' $niveauEducation', '$thematiqueChoisi', '$campusPrefere')";
             // use exec() because no results are returned
             $conn->exec($sql);
-            echo "New record created successfully";
+            //echo "New record created successfully";
           } catch(PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
           }
