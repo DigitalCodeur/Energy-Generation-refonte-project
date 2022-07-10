@@ -8,14 +8,14 @@
 <li>Kpoka Gérard </li>
 </ul>
 
-#Langages et techno utilisé
+# Langages et techno utilisé
 <ol>
     <li>HTML/CSS </li>
     <li> bootstrap </li>
     <li> php </li>
 </ol>
 
-#Methodologie
+# Methodologie
 
 <ol>
     <li>cloner le projet en local</li>
@@ -28,8 +28,8 @@
 # Methode pour la realisation du backend des formulaires
 
 <ol>
-<li> Connexion du php au base de donnée</li>
-<li>Recuperation des informations saisies dans les formulaires avec PHP</li>
-<li>Vérifiez si les champs obligatoires ont été saisis correctement sinon affichez un message d'erreur<li>
-<li>Enregister les informations saisis par l'utilisateur dans la base de donnée</li>
+    <li> Connexion du php au base de donnée</li>
+    <li>Recuperation des informations saisies dans les formulaires avec PHP</li>
+    <li>Vérifiez si les champs obligatoires ont été saisis correctement sinon affichez un message d'erreur<li>
+    <li>Enregister les informations saisis par l'utilisateur dans la base de donnée</li>
 </ol>
