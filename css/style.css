@@ -206,6 +206,7 @@ font-size: 7em !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed !important;
+    height: 30em;
 }
 .bg-entrepreneur-step{
     background-color: #0d6efd !important;
