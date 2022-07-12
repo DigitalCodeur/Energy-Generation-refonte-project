@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.5
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost:3306
--- Généré le : Dim 10 juil. 2022 à 19:59
--- Version du serveur :  5.7.24
--- Version de PHP : 7.4.1
+-- Host: localhost:8889
+-- Generation Time: Jul 12, 2022 at 06:35 PM
+-- Server version: 5.7.34
+-- PHP Version: 8.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,13 +18,24 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : ` form_php_mysql`
+-- Database: `db_remonte_eg`
 --
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `newsletter_form`
+-- Table structure for table `article_form`
+--
+
+CREATE TABLE `article_form` (
+  `user_id` int(11) NOT NULL,
+  `commentaire` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `newsletter_form`
 --
 
 CREATE TABLE `newsletter_form` (
@@ -39,7 +49,7 @@ CREATE TABLE `newsletter_form` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `programme_form`
+-- Table structure for table `programme_form`
 --
 
 CREATE TABLE `programme_form` (
@@ -57,36 +67,48 @@ CREATE TABLE `programme_form` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Index pour les tables déchargées
+-- Indexes for dumped tables
 --
 
 --
--- Index pour la table `newsletter_form`
+-- Indexes for table `article_form`
+--
+ALTER TABLE `article_form`
+  ADD PRIMARY KEY (`user_id`);
+
+--
+-- Indexes for table `newsletter_form`
 --
 ALTER TABLE `newsletter_form`
   ADD PRIMARY KEY (`user_id`);
 
 --
--- Index pour la table `programme_form`
+-- Indexes for table `programme_form`
 --
 ALTER TABLE `programme_form`
   ADD PRIMARY KEY (`user_id`);
 
 --
--- AUTO_INCREMENT pour les tables déchargées
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT pour la table `newsletter_form`
+-- AUTO_INCREMENT for table `article_form`
+--
+ALTER TABLE `article_form`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `newsletter_form`
 --
 ALTER TABLE `newsletter_form`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
--- AUTO_INCREMENT pour la table `programme_form`
+-- AUTO_INCREMENT for table `programme_form`
 --
 ALTER TABLE `programme_form`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

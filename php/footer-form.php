@@ -29,7 +29,13 @@ if(!empty( $_POST["name-footer"]) && !empty($_POST["email-footer"])){
 
    $conn = null;
 
-   echo "Merci de vous etes inscrit à notre Newsletter.";
-}
+   echo"<script language='javascript'>
+alert('Merci de vous etes inscrit à notre Newsletter.');
+</script>
+";
 
+
+
+}
+header('Location:../index.html');
 ?>
