@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rejoignez notre programme de mentorat">
-    <title>Devenir mentor</title>
+    <title>Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-        <!--
-            ==================
-                Navbar
-            ==================
-        -->
     <header class=" fixed-top bg-white">
         <nav class="navbar navbar-expand-lg py-4 navbar-light">
             <div class="container">
@@ -26,169 +20,160 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="d-flex justify-content-end">
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item ms-3"><a href="../index.html" class="nav-link">Accueil</a></li>
                             <li class="nav-item ms-3"><a href="../html/programmes.html" class="nav-link">Nos programmes</a></li>
                             <li class="nav-item ms-3"><a href="../html/energy-space.html" class="nav-link">Energy Space</a></li>
-                            <li class="nav-item ms-3"><a href="../html/blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item ms-3"><a href="../html/devenir_mentor.html" class="nav-link active" aria-current="page">Devenir Mentor</a></li>
+                            <li class="nav-item ms-3"><a href="../html/blog.html" class="nav-link active" aria-current="page">Blog</a></li>
+                            <li class="nav-item ms-3"><a href="../html/devenir_mentor.html" class="nav-link" >Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/achat.webp" width="30" height="30" alt=""></a></li>
                             <li class="nav-item ms-3"><a href="../index.html" class="nav-link"><img src="../image/France.webp" alt=""></a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/United_Kingdom.webp" alt=""></a></li>
                         </ul>
                         <div id="google_translate_element"></div>
 
-                            <script>
-                            function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
-                            }
-                            </script>
+                        <script>
+                        function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
+                        }
+                        </script>
 
-                            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
-        <!--
-            ==================
-            Section carousel
-            ==================
-        -->
-        <section>
-            <div id="carouselExampleIndicators" class="carousel slide mt-5 pt-5" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../image/mentor_discussion.webp" class="d-block w-100 w-img-carousel" alt="image du carousel">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <div class="bg-black opacity-personal py-lg-3 mb-titre mb-5">
-                                <h1 class="h1-dev-mentor">HELP LEAD THE CHANGE</h1>
-                                <h2 class="fs-2">Rejoignez notre programme de mentorat</h2>
-                            </div>
-                            <button type="button" onclick="window.location.href ='../html/formulaire-mentorat.html'" class="btn btn-primary fs-4 p-3 mb-titre" data-bs-toggle="button">DEVENEZ MENTOR</button>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/image-carousel2.webp" class="d-block w-100 w-img-carousel" alt="image du carousel">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <div class="bg-black opacity-personal py-lg-3 mb-titre mb-5">
-                                <h1 class="h1-dev-mentor">HELP LEAD THE CHANGE</h1>
-                                <h2 class="fs-2">Rejoignez notre programme de mentorat</h2>
-                            </div>
-                            <button type="button" onclick="window.location.href ='../html/formulaire-mentorat.html'" class="btn btn-primary fs-4 p-3 mb-titre" data-bs-toggle="button">DEVENEZ MENTOR</button>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/image-carousel3.webp" class="d-block w-100 w-img-carousel" alt="image du carousel">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <div class="bg-black opacity-personal py-lg-3 mb-titre mb-5">
-                                <h1 class="h1-dev-mentor">HELP LEAD THE CHANGE</h1>
-                                <h2 class="fs-2">Rejoignez notre programme de mentorat</h2>
-                            </div>
-                            <button type="button" onclick="window.location.href ='../html/formulaire-mentorat.html'" class="btn btn-primary rounded-3 fs-4 p-3 mb-titre" data-bs-toggle="button">DEVENEZ MENTOR</button>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-        <!--
-            ============================
-            Section PARTICIPEZ AU SUCCÈS
-            ============================
-        -->
-        <section>
-            <div class="bg-afrique-eg">
-                <div class="pt-5 bg-white opacity-personal">
-                    <div class="container">
-                        <h2 class="text-center text-primary fs-1">PARTICIPEZ AU SUCCÈS DE NOS <br> ENTREPRENEUR.E.S</h2>
-                        <p class="fs-4 py-5  m-0 text-align-justify">Chez Energy Generation, un mentor apporte un regard critique, challenge et donne des conseils bienveillants à un.e entrepreneur.e ou une équipe d’entrepreneur.e.s sur leur projet d’entreprise. Il leur transmet de façon proactive son expérience et son savoir-être de dirigeant.e ou d’expert.e. Il peut être amené, dans la mesure du possible, à mettre en œuvre les moyens dont il dispose (contacts, réseau, ressources…) pour accompagner au mieux le développement de la start up. Le mentor n’a en aucun cas un pouvoir de décision dans la direction de la start up. L’activité de mentorat n’est pas rémunérée.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-1">
-                <div class="invisible">
-                </div>
-            </div>
-        </section>
-        <!--
-            =============================================
-            Section EN SAVOIR PLUS SUR LE ROLE DE MENTOR
-            =============================================
-        -->
-        <section>
-            <h2 class="text-center personal-bg-blue text-white p-3 m-0">EN SAVOIR PLUS SUR LE ROLE DE MENTOR</h2>
-            <div class="row background-red">
-                <div class="col-4 text-center text-white px-5 my-auto">
-                        <h3 class="fs-1">DEVENEZ MENTOR :</h3>
-                        <h4 class="fs-2 fw-light">transmettez votre <br> expertise !</h4>
-                </div>
-                <div class="col bg-white px-5">
-                    <div class="container">
-                        <p class="fs-4 py-5 text-align-justify">Les <span class="fw-bold">mentors</span> sont des personnes volontaires, enthousiastes, et dotées de capacités d’écoute, de dialogue et de créativité. Leur rôle est de bâtir une <span class="fw-bold">relation de confiance</span> avec les entrepreneur.e.s.</p>
-                        <p class="fs-4 py-3 text-align-justify">Pour être mentor, vous devez :</p>
-                        <ul class="fs-5 py-3 text-align-justify">
-                            <li class="py-3">Avoir au moins 5 années d’expérience professionnelle ou une expérience entrepreneuriale probante</li>
-                            <li class="py-3">Être à l'écoute, enthousiaste et avoir envie de partager vos compétences et vos expériences</li>
-                            <li class="py-3">Être disponible pour une séance de travail au moins 1 fois par mois minimum avec l’entrepreneur.e que vous mentorez et ce, pour une période de 6 mois minimum.</li>
-                        </ul>
-                        <p class="fs-4 py-5 text-align-justify">NB : L’activité de mentorat n’est pas rémunérée.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="personal-bg-blue p-4">
-            </div>
-        </section>
-<!--
-            ====================
-            Section NOS MENTORS
-            ====================
-        -->
-        <section class="mb-5">
-            <div class="background-red w-personal1 personal-margin">
-                <h2 class="text-center fs-1 text-white p-4 mt-5">NOS MENTORS</h2>
-            </div>
-            <div class="mb-5">
-                <div class="personal-bg-blue w-personal personal-margin p-5 my-5 margin-y-personal border-raduis-personal">
-                    <p class="text-white fs-4 text-align-justify">"J'ai commencé à faire du mentorat pour les entrepreneurs d'Energy Generation en octobre 2020, à raison de quelques heures par semaine, a distance : j'aidais les entrepreneurs a progresser en anglais. En mars 2021, je me suis rendu sur le campus ou j'ai pu mentorer un aspect plus concret des projets en résidence : le prototypage et le développement de produit, mais aussi en partageant mon expérience du monde des start up et capital-risque."</p>
-                    <h3 class="text-white fs-2 text-center mt-5">Matt Stedman</h3>
-                    <h4 class="text-warning fs-4 text-center my-3">United Kingdom</h4>
-                </div>
-                <div class="personal-bg-blue w-personal personal-margin p-5 my-5 margin-y-personal border-raduis-personal">
-                    <p class="text-white fs-4 text-align-justify">"J'ai commencé mon parcours de mentor à Energy Generation en octobre 2019, à distance au début. Je suis ensuite arrivé à Lomé en novembre 2019 et j'ai joué un rôle de premier plan dans le lancement et la coordination de Business & Energy School alors que nous constituions notre équipe. En tant qu’ingénieur, j’étais surtout actif sur le développement de prototypes et de produits.
-                        <br>
-                        <br>
-                        J'ai été embauché en tant que Directeur Technique à temps plein en janvier 2021 et je n'ai jamais regretté mon choix."
-                    </p>
-                    <h3 class="text-white fs-2 text-center mt-5">Paul CAINRS</h3>
-                    <h4 class="text-warning fs-4 text-center my-3">Canada</h4>
-                </div>
-            </div>
-        </section>
+    <div class="pt-5">
+        <div class="container mt-5 pt-5">
+            <ul class="nav justify-content-between">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">All Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">Formation Solaire</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">formation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">énergie renouvelable</a>
+                </li>
+                <li class="nav-item">
+                    <select class="form-select w-25 border-0"  aria-label="Default select example">
+                        <option selected>Plus</option>
+                        <option value="1">formation entrepreneuriale</option>
+                        <option value="2">formation entrepreneuriale solaire</option>
+                        <option value="3">solar training</option>
+                    </select>
+                </li>
+                <li>
+                    <form>
+                        <input class="form-control" type="text" placeholder="Recherche" aria-label="Chercher">
+                      </form>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-        <!--
+    <div class="container my-5 py-5 ">
+        <div class="d-flex flex-wrap-mobile border mx-auto">
+            
+            <div class="px-5">
+                <div class="d-flex py-3">
+                    <img src="../image/image-article-perso.png" width="50" height="50" alt="">
+                    <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
+                </div>
+                <div class="me-5 fs-4">
+                   <p class="fs-4">Coup de projecteur sur le parcours <br> entrepreneuriat de la Formation Solaire à Energy Generation</p>
+                   <br> <br>
+
+                    <div class="w-100 me-5">
+                        <img src="../image/image-blog1.jpg" class="h-100 w-100 w-img-blog" alt="">
+                    </div>
+                    <br> <br>
+                    <p class="fs-5">Parce que le solaire représente une véritable opportunité de création d'emplois pour les jeunes, tout en participant au développement socio-économique des zones rurales en Afrique, Energy Generation a créé un programme de 10 mois pour répondre aux besoins en formation dans le domaine : la “Formation installateurs et techniciens de maintenance de systèmes solaires photovoltaïques”.</p>
+                    <p>Le programme bénéficie d’un soutien technique et pédagogique de la Fondation Schneider Electric et d’un soutien financier de la part du leader mondial de l’énergie, Électricité de France (EDF) sous la forme de bourses accordées aux jeunes femmes.</p>
+                    <p>Mesdames, n’hésitez donc pas à vous rapprocher de nous pour en savoir plus !</p>
+                    <p>La formation est subdivisée en deux parties : le parcours technique qui a fait l’objet d’un précédent article et le parcours entrepreneuriat riche de plusieurs modules  enseignés par différents intervenant.e.s.</p>
+                    <p>Raymond Ramazani-Saleh, un de nos apprenants venu spécialement de la R.D. Congo pour suivre la formation et économiste de formation témoigne : </p>
+                    <p class="text-primary">« Après avoir acquis les bases techniques sur l'installation et la maintenance de systèmes solaires photovoltaïques, nous avons poursuivi avec le parcours entrepreneuriat avec plusieurs modules comme la comptabilité, la gestion financière, le marketing et la communication, la gestion et le développement d'entreprise, le business Model, l'élaboration de plan d'affaire, le leadership et développement personnel. Cette suite de formation était pleine de motivation, de surprise, inspirante et instructive. Nous sommes prêts  à mettre nos compétences tant techniques qu' entrepreneuriales à profit sur le marché africain. Nous remercions EG pour la qualité d'apprentissage et la sélection des formateurs venus de tous les coins du monde. Nous invitons tous les jeunes à venir profiter de cette expérience à Energy Generation.»</p>
+                    <hr>
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <div class="d-flex">
+                            <span>226vues</span>
+
+                              <form action="#" method="post" class="mb-3 ms-5 d-flex">
+                                <textarea class="form-control" name="commentaire" placeholder="Entrer votre commentaire ici" cols="50"></textarea>
+                                
+                                    <button type="submit" class="btn btn-primary w-25 mx-3">Envoyer</button>
+                                 
+                              </form>
+                        </div>
+                        <div>
+                            <button class="border-0 bg-white">
+                                <span>22</span>
+                                <img src="../image/coeur.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="fs-3">Commentaire</h2>
+                        <hr>
+                    </div>
+
+                    <?php
+
+        if(!empty( $_POST["commentaire"])){
+
+
+        $comment = $_POST["commentaire"];
+
+        $servername = "localhost";
+        $username = "root";
+        $password = "root";
+        $dbname = "db_remonte_eg";
+
+        try {
+            $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+            // set the PDO error mode to exception
+            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+            $sql = "INSERT INTO  article_form (commentaire)
+            VALUES ('$comment')";
+            // use exec() because no results are returned
+            $conn->exec($sql);
+            //echo "New record created successfully";
+        } catch(PDOException $e) {
+            echo $sql . "<br>" . $e->getMessage();
+            }
+
+            // On récupère tout le contenu de la table recipes
+            $sqlQuery = 'SELECT commentaire FROM article_form';
+            $recipesStatement = $conn->prepare($sqlQuery);
+            $recipesStatement->execute();
+            $recipes = $recipesStatement->fetchAll();
+
+            // On affiche chaque recette une à une
+            foreach ($recipes as $recipe) {
+            ?>
+                <p><?php echo $recipe['commentaire']; ?></p>
+            <?php
+            }
+
+            $conn = null;
+        }
+
+        ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!--
             ===================
             Division Partenaire
             ===================
@@ -350,7 +335,6 @@
                 </button>
               </div>
         </section>
-    </main>
 
     <footer>
         <div class="bg-footer pb-3">
@@ -384,7 +368,7 @@
                                 <label class="form-check-label" for="prefere-english">I wish to receive the content in English</label>
                                 </div>
                             <button type="submit" class="btn btn-primary">Subscribe</button>
-                            </form>
+                        </form>
                     </div>
                     <div class="col m-auto d-flex justify-content-evenly pt-3">
                         <a href="http://twitter.com/EnergyGenAfrica" target="_blank">
@@ -409,5 +393,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
