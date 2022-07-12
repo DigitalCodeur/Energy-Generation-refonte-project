@@ -381,3 +381,20 @@ a:hover, .active{
     color: rgb(10, 163, 239) !important;
 }
 
+.color-start{
+    color: red;
+}
+.carousel-center{
+    width: 100% !important;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 576px) {
+    .input-medias{
+        display: block !important;
+}
+.form-medias{
+    width: 250px !important;
+}
+}

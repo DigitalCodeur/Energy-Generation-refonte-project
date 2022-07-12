@@ -32,17 +32,16 @@
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/achat.webp" width="30" height="30" alt=""></a></li>
                             <li class="nav-item ms-3"><a href="../index.html" class="nav-link"><img src="../image/France.webp" alt=""></a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/United_Kingdom.webp" alt=""></a></li>
+                        </ul>
+                        <div id="google_translate_element"></div>
 
-                            <div id="google_translate_element"></div>
-
-                            <script type="text/javascript">
+                            <script>
                             function googleTranslateElementInit() {
                             new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
                             }
                             </script>
 
-                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                        </ul>
+                            <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     </div>
                 </div>
             </div>
@@ -64,7 +63,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <img src="../image/bg1.webp" class="mt-5 w-img-carousel" width="100%" height="100%" alt="">
+                        <img src="../image/bg1.webp" class="mt-5 w-img-carousel w-100 h-100"alt="">
                         <div class="container">
                             <div class="carousel-caption mb-5">
                                 <div class="py-lg-3 mb-titre mb-5">
@@ -72,12 +71,12 @@
                                     <h1 class="fs-2">| BUSINESS & ENERGY SCHOOL</h1>
                                     <h3 class="fs-2">international Bachelor and MBA programs</h3>
                                 </div>
-                                <a href="#formControl"><button type="button" class="btn btn-primary btn-rounded-5 fs-4 p-3 mb-titre" data-bs-toggle="button" autocomplete="off">POSTULEZ MAINTENANT</button></a>
+                                <button onclick="window.location.href = '#formControl';" type="button" class="btn btn-primary btn-rounded-5 fs-4 p-3 mb-titre" data-bs-toggle="button">POSTULEZ MAINTENANT</button>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item active carousel-item-start">
-                        <img src="../image/bg2.webp" class="mt-5 w-img-carousel" width="100%" height="100%" alt="">
+                        <img src="../image/bg2.webp" class="mt-5 w-img-carousel w-100 h-100" alt="">
                         <div class="container">
                             <div class="carousel-caption">
                                 <div class="py-lg-3 mb-titre mb-5">
@@ -85,12 +84,12 @@
                                     <h2 class="fs-2">| BUSINESS & ENERGY SCHOOL</h2>
                                     <h3 class="fs-2">international Bachelor and MBA programs</h3>
                                 </div>
-                                <a href="#formControl"><button type="button" class="btn btn-primary rounded-3 fs-4 p-3 mb-titre" data-bs-toggle="button" autocomplete="off">POSTULEZ MAINTENANT</button></a>
+                                <button onclick="window.location.href = '#formControl';" type="button" class="btn btn-primary btn-rounded-5 fs-4 p-3 mb-titre" data-bs-toggle="button">POSTULEZ MAINTENANT</button>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-item-next carousel-item-start">
-                        <img src="../image/bg3.webp" class="mt-5 w-img-carousel" width="100%" height="100%" alt="">
+                        <img src="../image/bg3.webp" class="mt-5 w-img-carousel w-100 h-100" alt="">
                             <div class="container">
                             <div class="carousel-caption">
                                 <div class="py-lg-3 mb-titre mb-5">
@@ -98,7 +97,7 @@
                                     <h2 class="fs-2">| BUSINESS & ENERGY SCHOOL</h2>
                                     <h3 class="fs-2">international Bachelor and MBA programs</h3>
                                 </div>
-                                <a href="#formControl"></a><button type="button" class="btn btn-primary rounded-10 fs-4 p-3 mb-titre" data-bs-toggle="button" autocomplete="off">POSTULEZ MAINTENANT</button></a>
+                                <button onclick="window.location.href = '#formControl';" type="button" class="btn btn-primary btn-rounded-5 fs-4 p-3 mb-titre" data-bs-toggle="button">POSTULEZ MAINTENANT</button>
                             </div>
                         </div>
                     </div>
@@ -325,7 +324,9 @@
         <div class="bg-primary p-2 "></div>
         
         <div class="bgr2" >
+                
 
+            
         </div>
 
         <div class="bg-primary p-2 "></div>
@@ -416,10 +417,16 @@
                 <img src="../image/image3.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="../image/image4.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="../image/image4.webp" class="d-block w-100" alt="...">
+                <img src="../image/image2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/image1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../image/image5.webp" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -436,26 +443,28 @@
             Section Formulaire
             ==================
         -->
-        <form action="../php/programme-form.php" method="post" id="formControl" class="shadow-lg p-3 pt-5 mb-5 bg-body rounded w-50 my-5  mx-auto">
+        <div class="text-center pt-5 pb-0"><h1>POSTULEZ MAINTENANT</h1></div>
+        <form action="../php/programme-form.php" method="post" id="formControl" class="shadow-lg p-3 pt-5 mb-5 bg-body w-50 my-5  mx-auto form-medias">
             <div class="">
+                
                 <div class="form-group row">
-                    <label for="email" class="col-sm-3 col-form-label">Prénom et Nom<em style="color: red;">*</em></label>
+                    <label for="name" class="col-sm-3 col-form-label">Prénom et Nom<em class="color-start">*</em></label>
                     <div class="col form-floating">
                       <input type="text" class="form-control col-sm-3" id="email" placeholder="Prénom" name="prenom" value="" required>
                       <label for="floatingInput">Prénom</label>
                     </div>
-                    <div class="col form-floating">
-                        <input type="text" class="form-control col-sm-3col-sm-3" id="email" placeholder="Nom" name="nom" value=""  required>
+                    <div class="col form-floating col-sm-3">
+                        <input type="text" class="form-control" id="email" placeholder="Nom" name="nom" value=""  required>
                         <label for="floatingInput">Nom</label>
                     </div>
                 </div>
 
-                  <div class="mb-3 pt-3 row">
+                  <div class="mb-3 pt-3 row input-medias">
                             <div class="col col-sm-3">
-                                <label for="Genre" class=" col-form-label">Genre<em style="color: red;">*</em></label>
+                                <label for="Genre" class=" col-form-label">Genre<em class="color-start">*</em></label>
                             </div> 
-                            <div class="col col-sm-9">
-                                <select class=" form-select" aria-label="Default select example" name="genre" value=""  required>
+                            <div class="col col-sm-9 col-xs-9">
+                                <select class=" form-control " aria-label="Default select example" name="genre" value=""  required>
                                     <option selected>Veuillez sélectionner</option>
                                     <option value="Homme">Homme</option>
                                     <option value="Femme">Femme</option>
@@ -465,27 +474,27 @@
                     </div>
 
                     <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-3 col-form-label">Email<em style="color: red;">*</em></label>
+                        <label for="inputPassword" class="col-sm-3 col-form-label">Email<em class="color-start">*</em></label>
                         <div class="col-sm-9">
                           <input type="email" class="form-control" id="inputEmail" placeholder="exemple@gmail.com" name="email" value=""  required>
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-3 col-form-label">Confirmez votre Email<em style="color: red;">*</em></label>
+                        <label for="inputPassword" class="col-sm-3 col-form-label">Confirmez votre Email<em class="color-start">*</em></label>
                         <div class="col-sm-9">
                           <input type="email" class="form-control" id="inputEmail" placeholder="exemple@gmail.com" name="confirme_email" value=""  required>
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-3 col-form-label">Numéro whatsapp (avec indicatif pays)<em style="color: red;">*</em></label>
+                        <label for="inputPassword" class="col-sm-3 col-form-label">Numéro whatsapp (avec indicatif pays)<em class="color-start">*</em></label>
                         <div class="col-sm-9">
-                          <input type="tel" class="form-control" id="inputNumber" placeholder="exemple:(+228) XXXXXXXXXXXXXXX" name="numero_whatsap" value=""  required>
+                          <input type="tel" class="form-control" id="inputNumber" placeholder="exemple:(+228) XXXXXXXXXX" name="numero_whatsap" value=""  required>
                         </div>
                     </div>
 
-                    <div class="mb-3 row">
+                    <div class="mb-3 row input-medias">
                         <div class="col col-sm-3">
-                            <label for="Genre" class="col-form-label">Pays<em style="color: red;">*</em></label>
+                            <label for="Genre" class="col-form-label">Pays<em class="color-start">*</em></label>
                         </div> 
                         <div class="col col-sm-9">
                             <select class="form-select" aria-label="Default select example" name="pays" value=""  required>
@@ -495,9 +504,9 @@
                         </div>
                 </div>
 
-                <div class="mb-3 row">
+                <div class="mb-3 row input-medias">
                     <div class="col col-sm-3">
-                        <label for="Genre" class="col-auto col-form-label">Niveau d'étude<em style="color: red;">*</em></label>
+                        <label for="Genre" class="col-auto col-form-label">Niveau d'étude<em class="color-start">*</em></label>
                     </div> 
                     <div class="col col-sm-9">
                         <select class="form-select" aria-label="Default select example" name="niveau_etude" value=""  required>
@@ -506,9 +515,9 @@
                     </div>
             </div>
 
-            <div class="mb-3 row">
+            <div class="mb-3 row input-medias">
                             <div class="col col-sm-3">
-                                <label for="Genre" class="col-auto col-form-label">Thématique choisie<em style="color: red;">*</em></label>
+                                <label for="Genre" class="col-auto col-form-label">Thématique choisie<em class="color-start">*</em></label>
                             </div> 
                             <div class="col col-sm-9">
                                 <select class="form-select" aria-label="Default select example" name="thematique_choisi" value=""  required>
@@ -517,9 +526,9 @@
                             </div>
                     </div>
 
-                    <div class="mb-3 row">
+                    <div class="mb-3 row input-medias">
                         <div class="col col-sm-3">
-                            <label for="Genre" class="col-auto col-form-label">Campus préféré<em style="color: red;">*</em></label>
+                            <label for="Genre" class="col-auto col-form-label">Campus préféré<em class="color-start">*</em></label>
                         </div> 
                         <div class="col col-sm-9">
                             <select class="form-select" aria-label="Default select example" name="campus_prefere" value=""  required>
