@@ -1,0 +1,400 @@
+/*
+=======================
+CSS de la page accueil
+=======================
+*/
+
+.background_pg_accueil{
+    background-image: url(../image/Accueil_images/africa-EG.webp);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
+.logo_pg_accueil{
+height: 10vh;
+}
+
+.images_pg_accueil{
+    height: 200px !important;
+    width: 700px !important;
+
+}
+.h4_pg_accueil{
+    color: red;
+}
+
+.border{
+    border-radius: 0px !important;
+}
+    
+
+.bg-titre-programme_pg_accueil{
+    background-color: red;
+}
+
+.espace-blanc{
+    background-color:  red;
+    height: 2vh;
+}
+
+.bg-programme_pg_accueil{
+    background-color: #097188;
+}
+
+.bg-programme-attachement{
+    background-image: url(../image/Accueil_images/mecano-1.webp);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 20rem;
+    
+}
+
+.description-programme_pg_accueil{
+   /* font-family: 'Roboto', sans-serif !important;*/
+    font-weight: 0 !important;
+    font-size: 2.3vh;
+}
+
+/* ==========================
+ICI LES BOUTTONS DES PROGRAMMES
+========================== */
+.btn1_pg_accueil{
+    background-color:#FF6B00;
+}
+
+.btn2_pg_accueil{
+    background-color: #2E1FD7;
+}
+
+.btn3_pg_accueil{
+    background-color: #FFBB0E;
+}
+
+/* ==========================
+         Formation entrepreuneuriat solaire
+========================== */
+
+.bg-formation-solaire_pg_accueil{
+    background-image: url(../image/Accueil_images/africa-EG.webp);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ==========================
+                  Energy-space
+========================== */
+.bg-titre-energy-space_pg_accueil{
+    background-color: #0094FF;
+}
+
+.button_energy_pg_accueil{
+    border-radius: 0px !important;
+}
+/* ==========================
+                  Ils croient en nous
+========================== */
+.bg-ils-croient-en-nous{
+background-color: red;
+}
+.bg-scientifique{
+    background-image: url(../image/Accueil_images/scientifique-1.webp);
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.espace-rouge{
+    height: 10px;
+    background-color: red;
+}
+
+
+
+
+/*
+=============================
+CSS de la page nos programmes
+=============================
+*/
+.mb-titre{
+    margin-bottom: 3em !important;
+    border-radius: 1em !important;
+}
+.h1-dev-mentor{
+font-size: 7em !important;
+}
+
+.bg-1{
+    background-image: url('../image/bg-dev-mentor1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-afrique-eg{
+    background-image: url('../image/afrique-eg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.opacity-personal{
+    opacity: 0.85 !important;
+}
+
+.image-partenaire{
+    height: 15em;
+}
+
+.bg-footer{
+    background-color: #CACACA;
+}
+
+.background-red{
+    background-color: #F40000;
+}
+.invisible{
+    opacity: 0;
+    height: 50vh;
+}
+
+.personal-margin{
+    margin: 0 auto;
+}
+
+.border-raduis-personal{
+    border-radius: 1.5em;
+}
+
+.margin-y-personal{
+    margin-top: 5em !important;
+    margin-bottom: 8em !important;
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.w-personal{
+    width: 70%;
+}
+
+.w-personal1{
+    width: 40%;
+}
+
+@media all and (max-width: 1300px) {
+
+    .h1-dev-mentor{
+        font-size: 2em !important;
+        }
+}
+
+.bgr1{
+    background-image: url("../image/bg_2.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+.bgr2{
+    background-image: url("../image/bg_3.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 30em;
+}
+.bg-entrepreneur-step{
+    background-color: #0d6efd !important;
+
+    opacity: 0.8 !important;
+}
+.bg-step{
+    background-color: #0d6efd !important;
+}
+
+.bg-discours{
+    background-color: #EA4E1D !important; 
+}
+
+
+
+/*
+===========================
+CSS de la page energy space
+===========================
+*/
+.img-energy-sapce {
+    width: 20em;
+    height: 20em;
+
+}
+
+/*
+====================
+CSS de la page blog
+====================
+*/
+
+
+/*
+=============================
+CSS de la page devenir mentor
+=============================
+*/
+.mb-titre{
+    margin-bottom: 1em !important;
+    border-radius: 0.9em !important;
+}
+.h1-dev-mentor{
+font-size: 4em !important;
+}
+
+.bg-1{
+    background-image: url('../image/bg-dev-mentor1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-afrique-eg{
+    background-image: url('../image/afrique-eg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.opacity-personal{
+    opacity: 0.85 !important;
+}
+
+.image-parle-de-nous{
+    height: 15em;
+}
+
+.bg-footer{
+    background-color: #CACACA;
+}
+
+.background-red{
+    background-color: #F40000;
+}
+.invisible{
+    opacity: 0;
+    height: 50vh;
+}
+
+.personal-margin{
+    margin: 0 auto;
+}
+
+.border-raduis-personal{
+    border-radius: 1.5em;
+}
+
+.margin-y-personal{
+    margin-top: 5em !important;
+    margin-bottom: 8em !important;
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+
+.w-personal{
+    width: 70%;
+}
+
+.w-personal1{
+    width: 40%;
+}
+
+.img-sociaux{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.w-img-carousel{
+    height: 40em !important;
+}
+
+a:hover{
+    color: rgb(10, 163, 239) !important;
+}
+@media all and (max-width: 1300px) {
+
+    .h1-dev-mentor{
+        font-size: 2em !important;
+        }
+
+    .flex-wrap-mobile{
+        flex-wrap: wrap;
+    }
+
+    .w-50-mobile{
+        margin-top: 70px;
+        width: 20% !important;
+    }
+}
+
+.personal-bg-blue{
+    background-color: #159eed !important;
+}
+
+@media all and (max-width:900px){
+    .flex-wrap-mobile{
+        flex-wrap: wrap;
+    }
+
+    .w-img-blog{
+        width: 110% !important;
+    }
+}
+
+/*
+=============================
+CSS commun à toutes les pages
+=============================
+*/
+
+.image-parle-de-nous{
+    height: 15em;
+}
+
+.img-sociaux{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+
+/*
+=======================
+CSS animation
+=======================
+*/
+
+a:hover, .active{
+    color: rgb(10, 163, 239) !important;
+}
+
+.color-start{
+    color: red;
+}
+.carousel-center{
+    width: 100% !important;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 576px) {
+    .input-medias{
+        display: block !important;
+}
+.form-medias{
+    width: 250px !important;
+}
+}
