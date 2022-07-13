@@ -8,10 +8,10 @@ if(!empty( $_POST["name-footer"]) && !empty($_POST["email-footer"])){
   $french = $_POST["checkbox-prefere-french"];
   $english = $_POST["checkbox-prefere-english"];
 
-  $servername = "localhost";
-  $username = "root";
-  $password = "root";
-  $dbname = "db_remonte_eg";
+  $servername = "mysql-energy-generation.alwaysdata.net";
+  $username = "275807";
+  $password = "energyGeneration";
+  $dbname = "energy-generation_db_remonte_eg";
 
   try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

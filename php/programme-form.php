@@ -17,10 +17,11 @@ if(!empty($_POST["prenom"]) && !empty($_POST["nom"]) && !empty($_POST["genre"]) 
           // echo $prenom, $nom, $genre, $email, $confirmeEmail, $numeroWhatsap,  $pays, $niveauEducation, $thematiqueChoisi, $campusPrefere;
 
           if($email==$confirmeEmail) {
-                    $servername = "localhost";
-          $username = "root";
-          $password = "root";
-          $dbname = "db_remonte_eg";
+
+            $servername = "mysql-energy-generation.alwaysdata.net";
+            $username = "275807";
+            $password = "energyGeneration";
+            $dbname = "energy-generation_db_remonte_eg";
 
           try {
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

@@ -28,8 +28,6 @@
                             <li class="nav-item ms-3"><a href="../html/blog.html" class="nav-link active" aria-current="page">Blog</a></li>
                             <li class="nav-item ms-3"><a href="../html/devenir_mentor.html" class="nav-link" >Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/achat.webp" width="30" height="30" alt=""></a></li>
-                            <li class="nav-item ms-3"><a href="../index.html" class="nav-link"><img src="../image/France.webp" alt=""></a></li>
-                            <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/United_Kingdom.webp" alt=""></a></li>
                         </ul>
                         <div id="google_translate_element"></div>
 
@@ -132,10 +130,10 @@
 
         $comment = $_POST["commentaire"];
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "root";
-        $dbname = "db_remonte_eg";
+        $servername = "mysql-energy-generation.alwaysdata.net";
+        $username = "275807";
+        $password = "energyGeneration";
+        $dbname = "energy-generation_db_remonte_eg";
 
         try {
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
