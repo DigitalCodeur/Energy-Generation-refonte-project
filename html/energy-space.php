@@ -16,7 +16,7 @@
     <header class=" fixed-top bg-white">
         <nav class="navbar navbar-expand-lg py-4 navbar-light">
             <div class="container">
-                <a href="../index.html" class="d-flex align-items-baseline mb-3 mb-md-0 m me-md-auto text-dark text-decoration-none navbar-brand">
+                <a href="../index.php" class="d-flex align-items-baseline mb-3 mb-md-0 m me-md-auto text-dark text-decoration-none navbar-brand">
                     <img src="../image/EG_logo.webp" class="logo-eg navbar-brand" alt="logo energy generation">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,11 +26,11 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item ms-3"><a href="../index.html" class="nav-link">Accueil</a></li>
-                            <li class="nav-item ms-3"><a href="../html/programmes.html" class="nav-link">Nos programmes</a></li>
-                            <li class="nav-item ms-3"><a href="../html/energy-space.html" class="nav-link active" aria-current="page">Energy Space</a></li>
-                            <li class="nav-item ms-3"><a href="../html/blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item ms-3"><a href="../html/devenir_mentor.html" class="nav-link">Devenir Mentor</a></li>
+                            <li class="nav-item ms-3"><a href="../index.php" class="nav-link">Accueil</a></li>
+                            <li class="nav-item ms-3"><a href="../html/programmes.php" class="nav-link">Nos programmes</a></li>
+                            <li class="nav-item ms-3"><a href="../html/energy-space.php" class="nav-link active" aria-current="page">Energy Space</a></li>
+                            <li class="nav-item ms-3"><a href="../html/blog.php" class="nav-link">Blog</a></li>
+                            <li class="nav-item ms-3"><a href="../html/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/achat.webp" width="30" height="30" alt=""></a></li>
                         </ul>
                         <div id="google_translate_element"></div>

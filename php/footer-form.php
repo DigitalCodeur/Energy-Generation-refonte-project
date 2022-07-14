@@ -37,5 +37,5 @@ alert('Merci de vous etes inscrit à notre Newsletter.');
 
 
 }
-header('Location:../index.html');
+header('Location:../index.php');
 ?>
