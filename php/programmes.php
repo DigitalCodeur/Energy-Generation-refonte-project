@@ -25,10 +25,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item ms-3"><a href="../index.php" class="nav-link">Accueil</a></li>
-                            <li class="nav-item ms-3"><a href="../html/programmes.php" class="nav-link active" aria-current="page">Nos programmes</a></li>
-                            <li class="nav-item ms-3"><a href="../html/energy-space.php" class="nav-link">Energy Space</a></li>
-                            <li class="nav-item ms-3"><a href="../html/blog.php" class="nav-link">Blog</a></li>
-                            <li class="nav-item ms-3"><a href="../html/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
+                            <li class="nav-item ms-3"><a href="../php/programmes.php" class="nav-link active" aria-current="page">Nos programmes</a></li>
+                            <li class="nav-item ms-3"><a href="../php/energy-space.php" class="nav-link">Energy Space</a></li>
+                            <li class="nav-item ms-3"><a href="../php/blog.php" class="nav-link">Blog</a></li>
+                            <li class="nav-item ms-3"><a href="../php/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="../image/achat.webp" width="30" height="30" alt=""></a></li>
                         </ul>
                         <div id="google_translate_element"></div>
@@ -539,229 +539,33 @@
             </div>
         </form>
 
-<!--
-            ===================
-            Division Partenaire
-            ===================
+       <!--
+            ===================================
+            Insertion de la division partenaire
+            ===================================
         -->
-        <div class="personal-bg-blue p-2">
-        </div>
 
-        <div class="container text-center text-align-justify py-5">
-            <div class="row">
-                <div class="col">
-                    <a href="https://www.se.com/fr/fr/about-us/sustainability/foundation/" target="_blank">
-                        <img src="../image/se_fondation_logo_horizontal_rgb.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://tg.ambafrance.org/Lancement-des-projets-de-la-societe-civile-laureats-du-fonds-PISCCA-2021" target="_blank">
-                        <img src="../image/ambassade-de-france.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.initiative-france.fr/" target="_blank">
-                        <img src="../image/logo-initiative-france.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://gruene-buergerenergie.org/fr/sengager/challenge-call/" target="_blank">
-                        <img src="../image/logo-giz.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.edf.fr/" target="_blank">
-                        <img src="../image/logo-edf.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://fondation.edf.com/" target="_blank">
-                        <img src="../image/logo-edf-renouvelables.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.hautsdefrance.fr/la-region-relance-lappel-a-projets-acteurs-de-lenergie-pour-lafrique/" target="_blank">
-                        <img src="../image/Logo_Hauts-de-France_2016.webp" alt="logo partenaire">
-                    </a>
-                </div>
-            </div>
+        <?php include'../php/partenaire.php' ?>
 
-            <div class="row">
-                <div class="col">
-                   <a href="https://www.francophonie.org/" target="_blank">
-                       <img src="../image/logo-francophonie.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.ifdd.francophonie.org/" target="_blank">
-                        <img src="../image/logo-ifdd.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://d-lab.mit.edu/" target="_blank">
-                        <img src="../image/logo-mitd-lab.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.africinnov.com/fr" target="_blank">
-                        <img src="../image/logo-afric-innov.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.victronenergy.com/" target="_blank">
-                        <img src="../image/logo-victron-energy.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://education.github.com/schools" target="_blank">
-                        <img src="../image/logo-github.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="http://numerique.gouv.tg/" target="_blank">
-                         <img src="../image/bloc_blason_republique_togolaise.webp" alt="logo partenaire">
-                        </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <a href="http://www.collegedeparis.fr/" target="_blank">
-                        <img src="../image/college-de-paris-logo.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="http://www.saber-abrec.org/" target="_blank">
-                        <img src="../image/logo-saber.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://www.linkedin.com/company/eres-togo-sasu/" target="_blank">
-                        <img src="../image/logo-eres-togo.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://vilcap.com/" target="_blank">
-                        <img src="../image/logo-village-capital.webp" alt="logo partenaire">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="http://crclome.com/" target="_blank">
-                        <img src="../image/logo_boad.webp" alt="logo partenaire">
-                    </a>
-                </div>
-            </div>
-        </div>
         <!--
             ============================
             Section Ils parlent de nous
             ============================
         -->
-        <section>
-            <div class="text-center fs-1 bg-black text-white py-2">
-                <h2>Ils parlent de nous</h2>
-            </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../image/forbes-afrique.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/jeune-afrique.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/le-point-afrique.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/forbes-afrique-30.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/tv5-monde.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/togo-first.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/madame-figaro.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/la-tribune-afrique.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../image/le-monde-afrique.webp" class="d-block w-100 image-parle-de-nous" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
+        <?php include'../php/section_journaux.php' ?>
+
     </main>
 
-    <footer>
-        <div class="bg-footer pb-3">
-            <div class="container">
-                <div class="row">
-                     <!--
-                        ====================
-                        formulaire du footer
-                        ====================
-                        -->
-                    <div class="text-black col-lg-5">
-                        <div class="text-center fs-3 mt-3">
-                            <h3>Newsletter</h3>
-                            <p class="fs-5 text-secondary">Get our latest info, podcasts, advices...</p>
-                        </div>
-                        <form action="../php/footer-form.php" method="post">
-                            <div class="mb-3">
-                                <label for="nom" class="form-label">First Name</label>
-                                <input type="text" class="form-control" name="name-footer" id="nom" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="email-footer" id="email" required>
-                                </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" name="checkbox-prefere-french" id="prefere-french" value="french">
-                                <label class="form-check-label" for="prefere-french">Je préfère recevoir les informations en français</label>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" name="checkbox-prefere-english" id="prefere-english" value="english">
-                                <label class="form-check-label" for="prefere-english">I wish to receive the content in English</label>
-                                </div>
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
-                            </form>
-                    </div>
-                    <div class="col m-auto d-flex justify-content-evenly pt-3">
-                        <a href="http://twitter.com/EnergyGenAfrica" target="_blank">
-                            <img src="../image/twitter.webp" alt="lien vers twitter" class="img-sociaux">
-                        </a>
-                        <a href="https://www.linkedin.com/company/7936789/admin/" target="_blank">
-                            <img src="../image/linkedin.webp" alt="lien vers linkedin" class="img-sociaux">
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCXXWkX6rXa54FkD0oM3NkUQ/" target="_blank">
-                            <img src="../image/youtube.webp" alt="lien vers notre chaine youtube" class="img-sociaux">
-                        </a>
-                        <a href="https://web.facebook.com/EnergyGeneration/" target="_blank">
-                            <img src="../image/facebook.webp" alt="lien vers notre page facebook" class="img-sociaux">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <p class="my-3">&copy; 2022 - Energy Generation - All rights reserved.</p>
-        </div>
-    </footer>
+   <!--
+        ============================
+        footer
+        ============================
+    -->
+    <?php include'../php/footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-</html>
+</php>
 
 
 

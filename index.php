@@ -27,10 +27,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item ms-3"><a href="./index.php" class="nav-link active" aria-current="page">Accueil</a></li>
-                            <li class="nav-item ms-3"><a href="./html/programmes.php" class="nav-link">Nos programmes</a></li>
-                            <li class="nav-item ms-3"><a href="./html/energy-space.php" class="nav-link">Energy Space</a></li>
-                            <li class="nav-item ms-3"><a href="./html/blog.php" class="nav-link">Blog</a></li>
-                            <li class="nav-item ms-3"><a href="./html/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
+                            <li class="nav-item ms-3"><a href="./php/programmes.php" class="nav-link">Nos programmes</a></li>
+                            <li class="nav-item ms-3"><a href="./php/energy-space.php" class="nav-link">Energy Space</a></li>
+                            <li class="nav-item ms-3"><a href="./php/blog.php" class="nav-link">Blog</a></li>
+                            <li class="nav-item ms-3"><a href="./php/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="./image/achat.webp" width="30" height="30" alt=""></a></li>
                         </ul>
                         <div id="google_translate_element"></div>
@@ -434,4 +434,4 @@
 
 </body>
 
-</html>
+</php>
