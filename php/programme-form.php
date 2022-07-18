@@ -36,19 +36,16 @@ if(!empty($_POST["prenom"]) && !empty($_POST["nom"]) && !empty($_POST["genre"]) 
             echo $sql . "<br>" . $e->getMessage();
           }
 
-          echo"<script language='javascript'>
-          alert('Inscription réussie');
-          </script>
-          ";
 
           $conn = null;
                     } else {
                       echo "Email et Eamil de confirmation doivent être identique, Veuillez retourné et corrigé !";
                     }
 
-                } else {
-        echo "veillez remplir toutes les cases";
-      }
+                    include '../php/inscription_reussie.php';
 
-
+        }
+        else{
+          include '../php/echec_inscription.php';
+        }
 ?>
