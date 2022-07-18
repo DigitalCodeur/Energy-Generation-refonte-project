@@ -1,5 +1,22 @@
 /*
 =======================
+    Typography
+=======================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, a{
+    font-weight: 700;
+}
+
+/*
+=======================
 CSS de la page accueil
 =======================
 */
@@ -11,7 +28,6 @@ CSS de la page accueil
     background-attachment: fixed; 
 }
 
-
 .logo_pg_accueil{
 height: 10vh;
 }
@@ -21,21 +37,12 @@ height: 10vh;
     width: 700px !important;
 
 }
-.h4_pg_accueil{
+
+.color-red{
     color: red;
 }
 
-.border{
-    border-radius: 0px !important;
-}
-    
-
-.bg-titre-programme_pg_accueil{
-    background-color: red;
-}
-
-.espace-blanc{
-    background-color:  red;
+.height-vh{
     height: 2vh;
 }
 
@@ -49,12 +56,9 @@ height: 10vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 20rem;
-    
 }
 
 .description-programme_pg_accueil{
-   /* font-family: 'Roboto', sans-serif !important;*/
-    font-weight: 0 !important;
     font-size: 2.3vh;
 }
 
@@ -97,9 +101,7 @@ ICI LES BOUTTONS DES PROGRAMMES
 /* ==========================
                   Ils croient en nous
 ========================== */
-.bg-ils-croient-en-nous{
-background-color: red;
-}
+
 .bg-scientifique{
     background-image: url(../image/Accueil_images/scientifique-1.webp);
     height: 65vh;
@@ -110,24 +112,13 @@ background-color: red;
 
 .espace-rouge{
     height: 10px;
-    background-color: red;
 }
-
-
-
 
 /*
 =============================
 CSS de la page nos programmes
 =============================
 */
-.mb-titre{
-    margin-bottom: 3em !important;
-    border-radius: 1em !important;
-}
-.h1-dev-mentor{
-font-size: 7em !important;
-}
 
 .bg-1{
     background-image: url('../image/bg-dev-mentor1.jpg');
@@ -155,9 +146,6 @@ font-size: 7em !important;
     background-color: #CACACA;
 }
 
-.background-red{
-    background-color: #F40000;
-}
 .invisible{
     opacity: 0;
     height: 50vh;
@@ -188,13 +176,6 @@ font-size: 7em !important;
     width: 40%;
 }
 
-@media all and (max-width: 1300px) {
-
-    .h1-dev-mentor{
-        font-size: 2em !important;
-        }
-}
-
 .bgr1{
     background-image: url("../image/bg_2.webp") !important;
     background-repeat: no-repeat;
@@ -210,7 +191,6 @@ font-size: 7em !important;
 }
 .bg-entrepreneur-step{
     background-color: #0d6efd !important;
-
     opacity: 0.8 !important;
 }
 .bg-step{
@@ -233,13 +213,6 @@ CSS de la page energy space
     height: 20em;
 
 }
-
-/*
-====================
-CSS de la page blog
-====================
-*/
-
 
 /*
 =============================
@@ -281,7 +254,7 @@ font-size: 4em !important;
 }
 
 .background-red{
-    background-color: #F40000;
+    background-color: #ff0000;
 }
 .invisible{
     opacity: 0;
@@ -322,9 +295,26 @@ font-size: 4em !important;
     height: 40em !important;
 }
 
-a:hover{
-    color: rgb(10, 163, 239) !important;
+.personal-bg-blue{
+    background-color: #159eed !important;
 }
+
+.image-parle-de-nous{
+    height: 15em;
+}
+
+.img-sociaux{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+
+/*
+=============================
+Media query
+=============================
+*/
+
 @media all and (max-width: 1300px) {
 
     .h1-dev-mentor{
@@ -341,10 +331,6 @@ a:hover{
     }
 }
 
-.personal-bg-blue{
-    background-color: #159eed !important;
-}
-
 @media all and (max-width:900px){
     .flex-wrap-mobile{
         flex-wrap: wrap;
@@ -355,21 +341,15 @@ a:hover{
     }
 }
 
-/*
-=============================
-CSS commun à toutes les pages
-=============================
-*/
-
-.image-parle-de-nous{
-    height: 15em;
+@media screen and (min-width: 280px) and (max-width: 576px) {
+    .input-medias{
+        display: block !important;
 }
 
-.img-sociaux{
-    width: 70px !important;
-    height: 70px !important;
+.form-medias{
+    width: 250px !important;
 }
-
+}
 
 /*
 =======================
@@ -379,22 +359,4 @@ CSS animation
 
 a:hover, .active{
     color: rgb(10, 163, 239) !important;
-}
-
-.color-start{
-    color: red;
-}
-.carousel-center{
-    width: 100% !important;
-    margin: auto;
-}
-
-
-@media screen and (min-width: 280px) and (max-width: 576px) {
-    .input-medias{
-        display: block !important;
-}
-.form-medias{
-    width: 250px !important;
-}
 }
