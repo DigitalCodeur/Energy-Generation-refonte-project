@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <meta name="description" content="Energy Generation est une organisation panafricaine qui encourage les jeunes Africains à relever les défis les plus pressants de leur génération (énergie, agriculture, santé, etc.) à travers l'entrepreneuriat et la technologie.">
     <title>Accueil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -33,6 +31,7 @@
                             <li class="nav-item ms-3"><a href="./php/devenir_mentor.php" class="nav-link">Devenir Mentor</a></li>
                             <li class="nav-item ms-3"><a href="#" class="nav-link"><img src="./image/achat.webp" width="30" height="30" alt=""></a></li>
                         </ul>
+
                         <div id="google_translate_element"></div>
 
                         <script>
@@ -101,18 +100,18 @@
                     <div class="col mx-5 d-lg-flex justify-content-between">
                         <div class="row me-3">
                             <img src="./image/Accueil_images/btp-fousseni-group-togo.webp" class="border border-danger p-0 border-5 images_pg_accueil" alt="chantier de btp">
-                            <h4 class="h4_pg_accueil mt-4">VISION</h4>
+                            <h4 class="color-red mt-4">VISION</h4>
                             <p class="fs-6">Permettre l'émergence d'une nouvelle génération africaine en mesure de relever le défi de la dignité humaine sur le continent africain et au-delà.</p>
                         </div>
                         <div class="row ms-2">
                             <img class="border images_pg_accueil  border-danger p-0 border-5" src="./image/Accueil_images/images-btp.webp" alt="chantier btp">
-                            <h4 class="h4_pg_accueil mt-4">MISSION</h4>
+                            <h4 class="color-red mt-4">MISSION</h4>
                             <p class="fs-6">Révolutionner l'accès à l'éducation, à l'accompagnement et au financement, en construisant un écosystème entrepreneurial solide où les jeunes africains peuvent prospérer et développer des entreprises hors du commun.</p>
                         </div>
                     </div>
                 </div>
 
-                <button type="button" class="btn px-5 btn-primary">A propos</button>
+                <button type="button" class="btn rounded-0 px-5 btn-primary">A propos</button>
             </div>
         </div>
 
@@ -120,13 +119,13 @@
                         NOS PROGRAMMES
         ============================= -->
 
-        <div class="bg-titre-programme_pg_accueil text-white d-flex justify-content-center">
+        <div class="background-red text-white d-flex justify-content-center">
             <h1>NOS PROGRAMMES</h1>
         </div>
 
         <div class="bg-programme-attachement"></div>
 
-        <div class="espace-blanc"></div>
+        <div class="background-red height-vh"></div>
         <div class="bg-programme_pg_accueil pb-5">
             <div class="text-center pt-5">
                 <div class=" text-light container pt-5 description-programme_pg_accueil" >
@@ -153,12 +152,12 @@
         </div>
 
         <div>
-            <div class="bg-titre-programme_pg_accueil text-white text-center py-2">
+            <div class="background-red text-white text-center py-2">
                 <h3>LA FORMATION ENTREPRENEURIAT <br> SOLAIRE</h3>
                 <img src="./image/Accueil_images/eg-image-solaire-1.webp" class="w-100" alt="groupe de personne energie solaire" >
             </div>
 
-            <div class="espace-blanc"></div>
+            <div class="background-red height-vh"></div>
         </div>
 
         <div class="container">
@@ -185,7 +184,7 @@
         <div >
             <img src="./image/Accueil_images/energy_space-1.webp" class="w-100" alt="image energy" >
         </div>
-        <div class="espace-blanc bg-primary"></div>
+        <div class="background-red height-vh bg-primary"></div>
 
         <div class=" bg-formation-solaire_pg_accueil text-center">
             <div class="pt-5 container">
@@ -198,7 +197,7 @@
                 <button class="btn btn-primary rounded-0" >Energy Space</button>
             </div>
 
-            <div class="bg-titre-energy-space bg-ils-croient-en-nous py-3">
+            <div class="bg-titre-energy-space background-red py-3">
                 <h2 class="text-white">ILS CROIENT EN NOUS</h2>
             </div>
 
@@ -209,7 +208,7 @@
         <!-- ==========================
             SECTION FOOTER
         ==========================  -->
-        <div class="espace-rouge"></div>
+        <div class="background-red espace-rouge"></div>
         <!--
             ===================
             Division Partenaire
@@ -434,4 +433,4 @@
 
 </body>
 
-</php>
+</html>
