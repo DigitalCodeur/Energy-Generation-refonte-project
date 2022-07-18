@@ -125,6 +125,44 @@
                     </div>
 
                     <?php
+             //$servername = "localhost";
+             //$username = "root";
+            // $password = "root";
+             //$dbname = "energy-generation_db_remonte_eg";
+         
+                 $servername = "mysql-energy-generation.alwaysdata.net";
+                 $username = "275807";
+                 $password = "energyGeneration";
+                 $dbname = "energy-generation_db_remonte_eg";
+
+                 try {
+                     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+                     // set the PDO error mode to exception
+                     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                     // On récupère tout le contenu de la table recipes
+                     $sqlQuery = 'SELECT commentaire FROM article_form';
+                     $recipesStatement = $conn->prepare($sqlQuery);
+                     $recipesStatement->execute();
+                     $recipes = $recipesStatement->fetchAll();
+
+                     // On affiche chaque recette une à une
+                     foreach ($recipes as $recipe) {
+                     ?>
+                         <p><?php echo $recipe['commentaire']; ?></p>
+                     <?php
+                     }
+
+                     //echo "New record created successfully";
+                 } catch(PDOException $e) {
+                     echo $sql . "<br>" . $e->getMessage();
+                     }
+
+                     $conn = null;
+            ?>
+
+
+      <?php
 
         if(!empty( $_POST["commentaire"])){
 
@@ -148,19 +186,6 @@
             //echo "New record created successfully";
         } catch(PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
-            }
-
-            // On récupère tout le contenu de la table recipes
-            $sqlQuery = 'SELECT commentaire FROM article_form';
-            $recipesStatement = $conn->prepare($sqlQuery);
-            $recipesStatement->execute();
-            $recipes = $recipesStatement->fetchAll();
-
-            // On affiche chaque recette une à une
-            foreach ($recipes as $recipe) {
-            ?>
-                <p><?php echo $recipe['commentaire']; ?></p>
-            <?php
             }
 
             $conn = null;
