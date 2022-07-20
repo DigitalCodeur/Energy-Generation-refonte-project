@@ -85,32 +85,30 @@
                     <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                 </div>
                 <div class="me-5 fs-4">
-                   <p class="fs-4">Coup de projecteur sur le parcours <br> entrepreneuriat de la Formation Solaire à Energy Generation</p>
+                   <p class="fs-4">Progress report for the first session of the Training in Solar Entrepreneurship at Energy Generation</p>
                    <br> <br>
 
                     <div class="w-100 me-5">
                         <img src="../image/image-blog1.jpg" class="h-100 w-100 w-img-blog" alt="">
                     </div>
                     <br> <br>
-                    <p class="fs-5">Parce que le solaire représente une véritable opportunité de création d'emplois pour les jeunes, tout en participant au développement socio-économique des zones rurales en Afrique, Energy Generation a créé un programme de 10 mois pour répondre aux besoins en formation dans le domaine : la “Formation installateurs et techniciens de maintenance de systèmes solaires photovoltaïques”.</p>
-                    <p>Le programme bénéficie d’un soutien technique et pédagogique de la Fondation Schneider Electric et d’un soutien financier de la part du leader mondial de l’énergie, Électricité de France (EDF) sous la forme de bourses accordées aux jeunes femmes.</p>
-                    <p>Mesdames, n’hésitez donc pas à vous rapprocher de nous pour en savoir plus !</p>
-                    <p>La formation est subdivisée en deux parties : le parcours technique qui a fait l’objet d’un précédent article et le parcours entrepreneuriat riche de plusieurs modules  enseignés par différents intervenant.e.s.</p>
-                    <p>Raymond Ramazani-Saleh, un de nos apprenants venu spécialement de la R.D. Congo pour suivre la formation et économiste de formation témoigne : </p>
-                    <p class="text-primary">« Après avoir acquis les bases techniques sur l'installation et la maintenance de systèmes solaires photovoltaïques, nous avons poursuivi avec le parcours entrepreneuriat avec plusieurs modules comme la comptabilité, la gestion financière, le marketing et la communication, la gestion et le développement d'entreprise, le business Model, l'élaboration de plan d'affaire, le leadership et développement personnel. Cette suite de formation était pleine de motivation, de surprise, inspirante et instructive. Nous sommes prêts  à mettre nos compétences tant techniques qu' entrepreneuriales à profit sur le marché africain. Nous remercions EG pour la qualité d'apprentissage et la sélection des formateurs venus de tous les coins du monde. Nous invitons tous les jeunes à venir profiter de cette expérience à Energy Generation.»</p>
+                    <p class="fs-5">In Togo, the government has launched its new electrification strategy, providing for the creation of thousands of jobs in the photovoltaic solar sector. Unfortunately, the companies concerned are forced to have recourse to outside operators because the country faces a lack of adequate training that would allow local players to invest in the field.</p>
+                    <p>Indeed, today there are not enough training offers for technicians in  installation and maintenance. Faced with this growing need, Energy Generation has developed the “Training of installers and technicians for the maintenance of solar photovoltaic systems” program to broaden its impact in creating economic opportunities and jobs for young people in Africa through the promotion of renewable energies.</p>
+                    <p>At the end of this training, the learners will have acquired the skills necessary to carry out an installation of an autonomous photovoltaic solar system, functional and adapted to the challenges and needs of end users.</p>
+                    <p>In addition, they will be equipped to create, manage and develop an economic activity built around the installation and maintenance of solar systems.</p>
                     <hr>
                     <div class="d-flex flex-wrap justify-content-between">
-                    <div class="d-flex">
+                        <div class="d-flex">
                            
 
-                           <form action="#" method="post" class="mb-3 ms-5 d-flex flex-wrap-mobile">
-                                <span>226vues</span>
-                             <textarea class="form-control mx-3" name="commentaire" placeholder="Entrer votre commentaire ici" cols="50"></textarea>
+                              <form action="#" method="post" class="mb-3 ms-5 d-flex flex-wrap-mobile">
+                                   <span>226vues</span>
+                                <textarea class="form-control mx-3" name="commentaire" placeholder="Entrer votre commentaire ici" cols="50"></textarea>
 
-                                 <button type="submit" class="btn btn-primary py-3 px-5 w-25 m-3">Envoyer</button>
+                                    <button type="submit" class="btn btn-primary py-3 px-5 w-25 m-3">Send</button>
 
-                           </form>
-                     </div>
+                              </form>
+                        </div>
                         <div>
                             <button class="border-0 bg-white">
                                 <span>22</span>
@@ -120,7 +118,7 @@
                     </div>
 
                     <div>
-                        <h2 class="fs-3">Commentaire</h2>
+                        <h2 class="fs-3">Comment</h2>
                         <hr>
                     </div>
 

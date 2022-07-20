@@ -85,19 +85,18 @@
                     <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                 </div>
                 <div class="me-5 fs-4">
-                   <p class="fs-4">Coup de projecteur sur le parcours <br> entrepreneuriat de la Formation Solaire à Energy Generation</p>
+                   <p class="fs-4">Bilan d’étape très positif pour la première Formation en Entrepreneuriat Solaire à Energy Generation</p>
                    <br> <br>
 
                     <div class="w-100 me-5">
                         <img src="../image/image-blog1.jpg" class="h-100 w-100 w-img-blog" alt="">
                     </div>
                     <br> <br>
-                    <p class="fs-5">Parce que le solaire représente une véritable opportunité de création d'emplois pour les jeunes, tout en participant au développement socio-économique des zones rurales en Afrique, Energy Generation a créé un programme de 10 mois pour répondre aux besoins en formation dans le domaine : la “Formation installateurs et techniciens de maintenance de systèmes solaires photovoltaïques”.</p>
-                    <p>Le programme bénéficie d’un soutien technique et pédagogique de la Fondation Schneider Electric et d’un soutien financier de la part du leader mondial de l’énergie, Électricité de France (EDF) sous la forme de bourses accordées aux jeunes femmes.</p>
-                    <p>Mesdames, n’hésitez donc pas à vous rapprocher de nous pour en savoir plus !</p>
-                    <p>La formation est subdivisée en deux parties : le parcours technique qui a fait l’objet d’un précédent article et le parcours entrepreneuriat riche de plusieurs modules  enseignés par différents intervenant.e.s.</p>
-                    <p>Raymond Ramazani-Saleh, un de nos apprenants venu spécialement de la R.D. Congo pour suivre la formation et économiste de formation témoigne : </p>
-                    <p class="text-primary">« Après avoir acquis les bases techniques sur l'installation et la maintenance de systèmes solaires photovoltaïques, nous avons poursuivi avec le parcours entrepreneuriat avec plusieurs modules comme la comptabilité, la gestion financière, le marketing et la communication, la gestion et le développement d'entreprise, le business Model, l'élaboration de plan d'affaire, le leadership et développement personnel. Cette suite de formation était pleine de motivation, de surprise, inspirante et instructive. Nous sommes prêts  à mettre nos compétences tant techniques qu' entrepreneuriales à profit sur le marché africain. Nous remercions EG pour la qualité d'apprentissage et la sélection des formateurs venus de tous les coins du monde. Nous invitons tous les jeunes à venir profiter de cette expérience à Energy Generation.»</p>
+                    <p class="fs-5">Au Togo, le Gouvernement a amorcé sa nouvelle stratégie d’électrification, prévoyant la création de milliers d’emploi dans le secteur du solaire photovoltaïque. </p>
+                    <p>Malheureusement, les entreprises concernées sont contraintes d’avoir recours à des opérateurs extérieurs car le pays fait face à un manque de formations adéquates qui permettraient aux acteurs locaux d’investir le terrain.</p>
+                    <p>En effet, il n'existe aujourd’hui pas suffisamment d’offres de formation de techniciens d’installation et de maintenance. Face à ce besoin grandissant, Energy Generation a développé le programme de “Formation d’installateurs et de techniciens de maintenance de systèmes solaires photovoltaïques” pour élargir son impact dans la création d'opportunités économiques et d’emplois pour les jeunes en Afrique à travers la promotion des énergies renouvelables. </p>
+                    <p>À la fin de cette formation, les apprenant.e.s auront acquis les compétences nécessaires pour effectuer une installation de système solaire photovoltaïque autonome, fonctionnelle et adaptée aux défis et besoins des utilisateurs finaux.</p>
+                    <p>Par ailleurs, ils.elles seront outillés pour créer, gérer et développer une activité économique construite autour de l'installation et la maintenance de systèmes solaires.</p>
                     <hr>
                     <div class="d-flex flex-wrap justify-content-between">
                     <div class="d-flex">
