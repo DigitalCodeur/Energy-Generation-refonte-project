@@ -100,6 +100,7 @@
                     <p class="text-primary">« Après avoir acquis les bases techniques sur l'installation et la maintenance de systèmes solaires photovoltaïques, nous avons poursuivi avec le parcours entrepreneuriat avec plusieurs modules comme la comptabilité, la gestion financière, le marketing et la communication, la gestion et le développement d'entreprise, le business Model, l'élaboration de plan d'affaire, le leadership et développement personnel. Cette suite de formation était pleine de motivation, de surprise, inspirante et instructive. Nous sommes prêts  à mettre nos compétences tant techniques qu' entrepreneuriales à profit sur le marché africain. Nous remercions EG pour la qualité d'apprentissage et la sélection des formateurs venus de tous les coins du monde. Nous invitons tous les jeunes à venir profiter de cette expérience à Energy Generation.»</p>
                     <hr>
                     <div class="d-flex flex-wrap justify-content-between">
+
                     <div class="d-flex">
                            
 
@@ -111,6 +112,7 @@
 
                            </form>
                      </div>
+                     
                         <div>
                             <button class="border-0 bg-white">
                                 <span>22</span>
