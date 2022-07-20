@@ -127,14 +127,14 @@
                         <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                     </div>
                     <div class="me-5">
-                       <a href="#" class="fs-4 text-decoration-none text-black">Spotlight on the entrepreneurial journey from Solar Training to Energy Generation</a>
+                       <a href="../php/article-blog2.php" class="fs-4 text-decoration-none text-black">Spotlight on the entrepreneurial journey from Solar Training to Energy Generation</a>
                        <br> <br>
                         <p class="fs-5">As solar represents a real opportunity to create jobs for young people while participating in the socio-economic development of African...</p>
                         <hr>
                         <div class="d-flex flex-wrap justify-content-between">
                             <div>
                                 <span>226vues</span>
-                                <a href="#" class="ms-md-5 text-decoration-none text-black ">
+                                <a href="../php/article-blog2.php" class="ms-md-5 text-decoration-none text-black ">
                                     <span>0commentaire</span>
                                 </a>
                             </div>
@@ -161,14 +161,14 @@
                         <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                     </div>
                     <div class="me-5">
-                       <a href="#" class="fs-4 text-decoration-none text-black">Bilan d’étape très positif pour la première Formation en Entrepreneuriat Solaire à Energy Generation</a>
+                       <a href="../php/article-blog3.php" class="fs-4 text-decoration-none text-black">Bilan d’étape très positif pour la première Formation en Entrepreneuriat Solaire à Energy Generation</a>
                        <br> <br>
                         <p class="fs-5">Au Togo, le Gouvernement a amorcé sa nouvelle stratégie d’électrification, prévoyant la création de milliers d’emploi dans le secteur du...</p>
                         <hr>
                         <div class="d-flex flex-wrap justify-content-between">
                             <div>
                                 <span>226vues</span>
-                                <a href="#" class="ms-md-5 text-decoration-none text-black ">
+                                <a href="../php/article-blog3.php" class="ms-md-5 text-decoration-none text-black ">
                                     <span>0commentaire</span>
                                 </a>
                             </div>
@@ -195,14 +195,14 @@
                         <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                     </div>
                     <div class="me-5">
-                       <a href="#" class="fs-4 text-decoration-none text-black">Progress report for the first session of the Training in Solar Entrepreneurship at Energy Generation</a>
+                       <a href="../php/article-blog4.php" class="fs-4 text-decoration-none text-black">Progress report for the first session of the Training in Solar Entrepreneurship at Energy Generation</a>
                        <br> <br>
                         <p class="fs-5">In Togo, the government has launched its new electrification strategy, providing for the creation of thousands of jobs in the...</p>
                         <hr>
                         <div class="d-flex flex-wrap justify-content-between">
                             <div>
                                 <span>226vues</span>
-                                <a href="#" class="ms-md-5 text-decoration-none text-black ">
+                                <a href="../php/article-blog4.php" class="ms-md-5 text-decoration-none text-black ">
                                     <span>0commentaire</span>
                                 </a>
                             </div>

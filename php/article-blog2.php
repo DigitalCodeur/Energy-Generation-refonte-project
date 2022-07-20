@@ -85,34 +85,32 @@
                     <p>Odjouman Allagbe <br> 18 mars 2020 <br> 3 Min</p>
                 </div>
                 <div class="me-5 fs-4">
-                   <p class="fs-4">Coup de projecteur sur le parcours <br> entrepreneuriat de la Formation Solaire à Energy Generation</p>
+                   <p class="fs-4">Spotlight on the entrepreneurial journey from Solar Training to Energy Generation</p>
                    <br> <br>
 
                     <div class="w-100 me-5">
                         <img src="../image/image-blog1.jpg" class="h-100 w-100 w-img-blog" alt="">
                     </div>
                     <br> <br>
-                    <p class="fs-5">Parce que le solaire représente une véritable opportunité de création d'emplois pour les jeunes, tout en participant au développement socio-économique des zones rurales en Afrique, Energy Generation a créé un programme de 10 mois pour répondre aux besoins en formation dans le domaine : la “Formation installateurs et techniciens de maintenance de systèmes solaires photovoltaïques”.</p>
-                    <p>Le programme bénéficie d’un soutien technique et pédagogique de la Fondation Schneider Electric et d’un soutien financier de la part du leader mondial de l’énergie, Électricité de France (EDF) sous la forme de bourses accordées aux jeunes femmes.</p>
-                    <p>Mesdames, n’hésitez donc pas à vous rapprocher de nous pour en savoir plus !</p>
-                    <p>La formation est subdivisée en deux parties : le parcours technique qui a fait l’objet d’un précédent article et le parcours entrepreneuriat riche de plusieurs modules  enseignés par différents intervenant.e.s.</p>
-                    <p>Raymond Ramazani-Saleh, un de nos apprenants venu spécialement de la R.D. Congo pour suivre la formation et économiste de formation témoigne : </p>
-                    <p class="text-primary">« Après avoir acquis les bases techniques sur l'installation et la maintenance de systèmes solaires photovoltaïques, nous avons poursuivi avec le parcours entrepreneuriat avec plusieurs modules comme la comptabilité, la gestion financière, le marketing et la communication, la gestion et le développement d'entreprise, le business Model, l'élaboration de plan d'affaire, le leadership et développement personnel. Cette suite de formation était pleine de motivation, de surprise, inspirante et instructive. Nous sommes prêts  à mettre nos compétences tant techniques qu' entrepreneuriales à profit sur le marché africain. Nous remercions EG pour la qualité d'apprentissage et la sélection des formateurs venus de tous les coins du monde. Nous invitons tous les jeunes à venir profiter de cette expérience à Energy Generation.»</p>
+                    <p class="fs-5">As solar represents a real opportunity to create jobs for young people while participating in the socio-economic development of African rural areas in particular, Energy Generation has created a 10-month program to meet training needs in the field: “Training installers and maintenance technicians of solar photovoltaic systems”.</p>
+                    <p>The programme benefits from technical and educational support from the Schneider Electric Foundation and financial support from the global leader in energy- Electricité de France (EDF), in the form of grants for young women.</p>
+                    <p>Ladies, don't hesitate to get in touch with us to find out more!</p>
+                    <p>The training is subdivided into two parts: the technical course which was the subject of the previous article and the entrepreneurship course which is rich in several modules and  taught by different speakers.</p>
+                    <p>Raymond Ramazani-Saleh, one of our learners who came from the DR Congo to follow the training testifies:</p>
+                    <p class="text-primary">"After having acquired the technical bases on the installation and the maintenance of photovoltaic solar systems, we continued with the entrepreneurship course with several modules like accounting, financial management,marketing and communication, management and development of a company, business model, business plan development, leadership and personal development. This training was instructive and full of motivation, surprises, inspiration. We are ready to put our technical and entrepreneurial skills to good use on the African market. We thank EG for the quality of learning and the selection of trainers from all over the world. We invite all young people to come and enjoy this experience at Energy Generation.” </p>
                     <hr>
                     <div class="d-flex flex-wrap justify-content-between">
-
-                    <div class="d-flex">
+                        <div class="d-flex">
                            
 
-                           <form action="#" method="post" class="mb-3 ms-5 d-flex flex-wrap-mobile">
-                                <span>226vues</span>
-                             <textarea class="form-control mx-3" name="commentaire" placeholder="Entrer votre commentaire ici" cols="50"></textarea>
+                              <form action="#" method="post" class="mb-3 ms-5 d-flex flex-wrap-mobile">
+                                   <span>226vues</span>
+                                <textarea class="form-control mx-3" name="commentaire" placeholder="Entrer votre commentaire ici" cols="50"></textarea>
 
-                                 <button type="submit" class="btn btn-primary py-3 px-5 w-25 m-3">Envoyer</button>
+                                    <button type="submit" class="btn btn-primary py-3 px-5 w-25 m-3">Send</button>
 
-                           </form>
-                     </div>
-                     
+                              </form>
+                        </div>
                         <div>
                             <button class="border-0 bg-white">
                                 <span>22</span>
@@ -122,7 +120,7 @@
                     </div>
 
                     <div>
-                        <h2 class="fs-3">Commentaire</h2>
+                        <h2 class="fs-3">Comment</h2>
                         <hr>
                     </div>
 
